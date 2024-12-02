@@ -10,6 +10,9 @@
 
 ## 🚀 Getting Started
 
+> Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
+
+
 To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
@@ -31,13 +34,15 @@ To get started with the bot, follow these steps:
 ### 1. `configs.json` 📜 - Adjust configuration
 
 ```json
-{  
+{
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
   "howManySpeedBoost": 1,
-  "howManyCapacityBoost": 1
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "howManyCapacityBoost": 1,
+  "delayEachAccount": [5, 8]
 }
+
 ```
 
 ### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
