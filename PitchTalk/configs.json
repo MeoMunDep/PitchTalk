@@ -1,1 +1,8 @@
-{ "limit": 100, "countdown": 300, "country_time": "en-US" }
+{
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "howManySpeedBoost": 1,
+  "howManyCapacityBoost": 1,
+  "delayEachAccount": [5, 8]
+}
