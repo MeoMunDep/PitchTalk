@@ -4,5 +4,8 @@
   "country_time": "en-US",
   "howManySpeedBoost": 1,
   "howManyCapacityBoost": 1,
-  "delayEachAccount": [5, 8]
+  "delayEachAccount": [5, 8],
+  "referralCode": "38f044",
+  "doTasks": true,
+  "playGames": true
 }
