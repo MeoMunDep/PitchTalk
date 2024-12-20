@@ -17,6 +17,10 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
+- **Node.js** (Version: `22.11.0`)
+- **npm** (Version: `10.9.0`)
+
+
 -> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
 
 1. **Install Dependencies and Modules:**
@@ -40,8 +44,12 @@ To get started with the bot, follow these steps:
   "country_time": "en-US",
   "howManySpeedBoost": 1,
   "howManyCapacityBoost": 1,
-  "delayEachAccount": [5, 8]
+  "delayEachAccount": [5, 8],
+  "referralCode": "38f044",
+  "doTasks": true,
+  "playGames": true
 }
+
 
 ```
 
@@ -73,6 +81,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node 1`
+> To run the bot, use the following command: `cd pitchtalk-main/pitchtalk; node 1`
 
 🎇Enjoy!
