@@ -30,16 +30,15 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-    "timeZone": "en-US",
-    "rotateProxy": false,
-    "skipInvalidProxy": false,
-    "proxyRotationInterval": 2,
-    "delayEachAccount": [5, 8],
-    "timeToRestartAllAccounts": 300,
-    "howManyAccountsRunInOneTime": 10,
-    "doTasks": true,
-    "playGames": true,
-    "referralCode": ""
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "howManySpeedBoost": 1,
+  "howManyCapacityBoost": 1,
+  "delayEachAccount": [5, 8],
+  "referralCode": "38f044",
+  "doTasks": true,
+  "playGames": true
 }
 EOL
 }
@@ -54,9 +53,9 @@ check_configs() {
 
 while true; do
     clear
-    echo "================================="
-    echo "    name BOT SETUP AND RUN SCRIPT"
-    echo "================================="
+    echo "=========================================================="
+    echo "    PitchTalk BOT SETUP AND RUN SCRIPT by @MeoMunDep"
+    echo "=========================================================="
     echo
     echo "Current directory: $(pwd)"
     echo "Node modules directory: $MODULES_DIR/node_modules"
@@ -115,7 +114,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            node bot
+            node meomundep
             read -p "Press Enter to continue..."
             ;;
         4)
